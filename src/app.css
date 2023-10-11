@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700;900&display=swap');
+
+:root {
+    --grey-white: #ffffff;
+    --grey-050: #fafafa;
+    --grey-100: #f3f3f3;
+    --grey-200: #dbdbdb;
+    --grey-300: #c4c4c4;
+    --grey-400: #acacac;
+    --grey-500: #888888;
+    --grey-600: #5f5f5f;
+    --grey-700: #444444;
+    --grey-800: #292929;
+    --grey-900: #0e0e0e;
+    --grey-black: #000000;
+
+    --primary-100: #ffe2ca;
+    --primary-200: #ffd8b9;
+    --primary-300: #ffc595;
+    --primary-400: #ffb172;
+    --primary-500: #ff9e45;
+    --primary-600: #cc7e3f;
+    --primary-700: #995f2f;
+    --primary-800: #663f20;
+    --primary-900: #191008;
+
+    --secondary-100: #faf9ff;
+    --secondary-200: #efeefe;
+    --secondary-300: #e5e3fe;
+    --secondary-400: #dbd8fd;
+    --secondary-500: #cbc7fc;
+    --secondary-600: #a29fca;
+    --secondary-700: #7a7797;
+    --secondary-800: #515065;
+    --secondary-900: #190d10;
+
+    --tertiary-100: #f5fef0;
+    --tertiary-200: #ecfde1;
+    --tertiary-300: #e2fcd2;
+    --tertiary-400: #d9fbc3;
+    --tertiary-500: #cffab4;
+    --tertiary-600: #a6c890;
+    --tertiary-700: #7c966c;
+    --tertiary-800: #536448;
+    --tertiary-900: #151912;
+}
+
+html * {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    color: var(--grey-900);
+}
+
+body {
+    background-color: var(--tertiary-100);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: 0.96px;
+}
+
+h2 {
+   font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 120% */ 
+}
+
+h3 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px; /* 145.455% */
+    letter-spacing: 0.44px;
+}
+
+button {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 700;
+}
