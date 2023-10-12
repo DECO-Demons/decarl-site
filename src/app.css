@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700;800;900&display=swap');
 
 :root {
     --grey-white: #ffffff;
@@ -45,14 +45,24 @@
     --tertiary-900: #151912;
 }
 
+
 html * {
     font-family: "Public Sans", sans-serif;
     font-weight: 400;
     color: var(--grey-900);
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
 
 body {
     background-color: var(--tertiary-100);
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -86,4 +96,15 @@ h3 {
 button {
     font-family: "Public Sans", sans-serif;
     font-weight: 700;
+}
+
+section {
+    padding: 8px;
+}
+
+.box {
+    border-radius: 10px;
+    border: 2px solid var(--grey-900);
+    box-shadow: 0px 2px 0px 0px var(--grey-900);
+    padding: 0.5rem;
 }
