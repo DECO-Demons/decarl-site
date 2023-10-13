@@ -4,12 +4,6 @@
 
 <span id="navbar-container">
     <span id="navbar">
-        <a href="#hero-section" id="nav-logo">
-            <img
-                src="/decarl-logo.png"
-                id="nav-logo"
-            />
-        </a>
         <span id="nav-items" class="box">
             <a href="#about-section">
                 <span class="nav-item">
@@ -38,28 +32,16 @@
         padding: 0.5rem 0;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         width: 70%;
-    }
-
-    #nav-logo {
-        max-width: 7rem;
-    }
-    
-    @media only screen and (max-width: 768px) {
-        #navbar {
-            justify-content: center;
-        }
-        #nav-logo {
-            display: none;
-        }
     }
 
     #nav-items {
         display: flex;
         flex-direction: row;
         padding: 0.5rem 0;
+        background-color: var(--secondary-200);
     }
 
     #nav-items a {
