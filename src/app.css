@@ -61,8 +61,11 @@ html * {
 }
 
 body {
-    background-color: var(--tertiary-100);
+    background-color: var(--secondary-200);
     margin: 0;
+    background-image: url("/hero-background.png");
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6 {
