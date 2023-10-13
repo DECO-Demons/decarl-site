@@ -59,6 +59,12 @@
         gap: 10rem;
     }
 
+    @media only screen and (max-width: 768px) {
+        #hero-arts {
+            display: none;
+        }
+    }
+
     .hero-art {
         height: 15rem;
     }
