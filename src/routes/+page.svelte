@@ -35,7 +35,7 @@
     <div in:fade={{ duration: 300 }}>
         <Navbar />
         <Hero />
-        <About />
         <Demo />
+        <About />
     </div>
 {/if}

@@ -41,7 +41,7 @@
         display: flex;
         flex-direction: row;
         padding: 0.5rem 0;
-        background-color: var(--secondary-200);
+        background-color: var(--background-1);
     }
 
     #nav-items a {
@@ -55,7 +55,7 @@
     }
 
     .nav-item:hover {
-        color: var(--tertiary-100);
+        color: var(--background-1);
         background: var(--grey-900);
     }
 

@@ -18,18 +18,27 @@
                 <SprayCan size={iconSize} strokeWidth={iconStrokeWidth} color={iconFill} />
             </div>
             <h3>Create</h3>
+            <p class="box">
+                Create and upload your own digital masterpieces for others to discover and enjoy!
+            </p>
         </span>
         <span class="info-col">
             <div class="box icon-box" id="connect-icon-box">
                 <Network size={iconSize} strokeWidth={iconStrokeWidth} color={iconFill} />
             </div>
             <h3>Connect</h3>
+            <p class="box">
+                Stay up to date on emerging digital art culture by adding friends and following creators!
+            </p>
         </span>
         <span class="info-col">
             <div class="box icon-box" id="explore-icon-box">
                 <Search size={iconSize} strokeWidth={iconStrokeWidth} color={iconFill} />
             </div>
             <h3>Explore</h3>
+            <p class="box">
+                Find unique digital artwork, adding new life to the places you're familiar with!
+            </p>
         </span>
     </div>
 </section>
@@ -37,13 +46,13 @@
 <style>
     #about-section {
         min-height: 50vh;
-        padding-top: 5rem;
+        padding-top: 3rem;
     }
 
     #three-col-info {
         display: flex;
         flex-direction: row;
-        width: 60%;
+        width: 75%;
         margin: 0 auto;
         justify-content: space-between;
     }
@@ -57,9 +66,15 @@
 
     .info-col {
         display: flex;
+        width: 30ch;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0rem;
         align-items: center;
+    }
+
+    .info-col > p {
+        text-align: center;
+        background-color: var(--grey-050);
     }
 
     .icon-box {
