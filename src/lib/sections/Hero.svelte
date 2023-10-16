@@ -12,6 +12,7 @@
             src="/art-world-paint.png"
             alt="hero-art-painting"
             class="hero-art"
+            id="mobile-persistent-art"
         />
         <img
             src="/art-texting.png"
@@ -56,16 +57,20 @@
         flex-direction: row;
         align-items: center;
         margin: 0 auto;
-        gap: 10rem;
-    }
-
-    @media only screen and (max-width: 768px) {
-        #hero-arts {
-            display: none;
-        }
+        gap: 8rem;
     }
 
     .hero-art {
-        height: 15rem;
+        max-width: 17vw;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .hero-art {
+            display: none;
+        }
+        #mobile-persistent-art {
+            display: inherit;
+            max-width: 50vw;
+        }
     }
 </style>
