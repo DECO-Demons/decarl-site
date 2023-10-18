@@ -55,18 +55,21 @@
         width: 75%;
         margin: 0 auto;
         justify-content: space-between;
+        align-items: center;
     }
 
     @media only screen and (max-width: 768px) {
         #three-col-info {
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
             gap: 5rem;
         }
     }
 
     .info-col {
         display: flex;
-        width: 30ch;
+        width: 27ch;
         flex-direction: column;
         gap: 0rem;
         align-items: center;
