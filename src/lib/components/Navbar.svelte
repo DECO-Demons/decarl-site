@@ -1,20 +1,22 @@
 <script lang="ts">
-    // Do a smooth scroll thing
+    import OnMount from "$lib/helpers/OnMount.svelte";
+    
 </script>
 
 <span id="navbar-container">
     <span id="navbar">
         <span id="nav-items" class="box">
-            <a href="#about-section">
-                <span class="nav-item">
-                    ABOUT
-                </span>
-            </a>
-            <a href="#demo-section">
-                <span class="nav-item">
-                    DEMO
-                </span>
-            </a>
+            <OnMount>
+                {#each document.querySelectorAll("section") as section}
+                    {#if section.id != "hero-section"}
+                        <a href={"#" + section.id}>
+                            <span class="nav-item">
+                                {section.id.split("-")[0].toUpperCase()}
+                            </span>
+                        </a>
+                    {/if}
+                {/each}
+            </OnMount>
         </span>
     </span>
 </span>
